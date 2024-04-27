@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.outer {
+  box-shadow: 1, 2, 2, 2, white;
+  width: 400px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(4);
+  margin: auto;
+
+  background-color: rgb(59, 57, 57);
+  /* padding: 10px; */
+  margin-top: 8vh;
+  border-radius: 50px;
+  text-align: center;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+}
+
+button {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  text-align: center;
+  margin: 6px;
+  border: none;
+  font-size: 30px;
+}
+.orange {
+  background-color: rgb(241, 89, 51);
+  color: white;
+}
+input {
+  /* background-color: red; */
+  box-shadow: 2px 2px 2px 0.5 white;
+  width: 350px;
+  /* margin: 10px; */
+  height: 13vh;
+  border: none;
+  text-align: right;
+  font: 50px white;
+  color: white;
+  border-radius: 30px 30px 0 0;
+  background-color: rgb(59, 57, 57);
+  padding: 20px;
+}
